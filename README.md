@@ -64,7 +64,7 @@ The project requires the following dependencies (specified in `requirements.txt`
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/DS-KB-lab/MDOT.git
 cd MODT
 ```
 
