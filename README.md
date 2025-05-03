@@ -4,14 +4,9 @@ This repository contains the implementation of the Momentum Distillation Oscillo
 
 ## Abstract
 
+Reliable ECG classification ensures that heart abnormalities are correctly identified, leading to appropriate and timely interventions. We propose a Momentum Distillation Oscillographic Transformer (MDOT) method, leveraging medical knowledge for momentum distillation on an attention model, to improve the interpretability of ECG classification. From a physician's perspective, we've created an XGBoost-based medical momentum distillation structure to model and analyze the significance of waveform features, integrating them into the final classification. Additionally, we've introduced the OSC module, which treats preprocessed ECG data as an image with multiple dimensions, enabling us to extract and enhance the features of each rhythm individually for a more comprehensive analysis. This approach overcomes the constraints of traditional methods that process ECG data as multiple waveforms, providing a stronger global perception of the data. Our approach, centered on enhancing medical knowledge and refining momentum, significantly improves the accuracy and reliability of ECG classification. Moreover, it achieves comparable or superior performance when compared to the existing models on specific datasets.
 
 ![Alt text](Base_model.png)
-MDOT is a novel approach that combines medical knowledge with advanced machine learning techniques to improve ECG classification accuracy and interpretability. The method consists of three main components:
-
-1. **OSC Module**: Transforms ECG data into multi-dimensional image format for better feature extraction
-2. **Momentum Model**: Combines ResNeSt and XGBoost for medical momentum distillation
-3. **Attention Model**: Enhances interpretability through local attention mechanisms
-
 ## Project Structure
 
 ```
