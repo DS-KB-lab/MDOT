@@ -2,8 +2,10 @@
 
 This repository contains the implementation of the Momentum Distillation Oscillographic Transformer (MDOT) method for ECG classification, as described in our course(**Ethics in Artificial Intelligence**) project.
 
-## Overview
+## Abstract
 
+
+![Alt text](Base_model.png)
 MDOT is a novel approach that combines medical knowledge with advanced machine learning techniques to improve ECG classification accuracy and interpretability. The method consists of three main components:
 
 1. **OSC Module**: Transforms ECG data into multi-dimensional image format for better feature extraction
