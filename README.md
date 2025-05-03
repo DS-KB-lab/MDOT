@@ -65,7 +65,7 @@ The project requires the following dependencies (specified in `requirements.txt`
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd [repository-name]
+cd MODT
 ```
 
 2. Install dependencies:
@@ -147,37 +147,6 @@ metrics = evaluator.compute_metrics()
 evaluator.print_report(class_names)
 ```
 
-## Results
-
-Our implementation achieves the following results:
-
-### MIT-BIH Dataset (8 classes)
-- Accuracy: 99.53%
-- Precision: 98.44%
-- Sensitivity: 99.06%
-- Specificity: 99.21%
-- F1 Score: 97.26%
-
-### Chapman ECG DB (12 classes)
-- Accuracy: 99.03%
-- Precision: 97.41%
-- Sensitivity: 97.51%
-- Specificity: 99.08%
-- F1 Score: 96.38%
-
-## Citation
-
-If you use this code in your research, please cite our paper:
-
-```bibtex
-@inproceedings{mdot2024,
-  title={Echoes of the Heart: Momentum Distillation Oscillographic ECG Classification with Diagnostic Insights},
-  author={[Authors]},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2024}
-}
-```
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -186,4 +155,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - MIT-BIH Arrhythmia Database
 - Chapman ECG Database
-- The authors would like to thank [acknowledgments] 
+- CTKD and LeViT teams
