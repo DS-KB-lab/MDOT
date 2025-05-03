@@ -1,6 +1,6 @@
-# Echoes of the Heart: Momentum Distillation Oscillographic ECG Classification with Diagnostic Insights
+# Enhancing Interpretability in ECG Classification: A Physician-Informed Momentum Distillation Transformer Approach
 
-This repository contains the implementation of the Momentum Distillation Oscillographic Transformer (MDOT) method for ECG classification, as described in our CVPR 2024 paper.
+This repository contains the implementation of the Momentum Distillation Oscillographic Transformer (MDOT) method for ECG classification, as described in our course(**Ethics in Artificial Intelligence**) project.
 
 ## Overview
 
